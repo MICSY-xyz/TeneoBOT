@@ -7,7 +7,6 @@ TeneoBOT is a WebSocket-based bot that allows you to interact with the server au
 - Real-time calculation and display of **Total Points** and **Points Today**.
 - Sending **ping** to the server every 10 seconds to maintain the connection.
 - Supports **proxy** usage.
-- Local data storage using `localStorage.json`.
 - **Potential points** calculation based on time and the provided algorithm.
 
 ## 📋 Prerequisites
@@ -26,3 +25,27 @@ pkg update
 pkg upgrade
 pkg install nodejs
 
+### 2. Clone the Repository
+Clone this repository from **GitHub** to your device:
+
+```sh
+git clone https://github.com/MICSY-xyz/TeneoBOT.git
+cd TeneoBOT
+
+
+### 3. Install Dependencies
+
+Install the required dependencies using npm
+
+```sh
+npm install
+
+#### 4. Run the Bot
+
+After the dependencies are installed, you can run the bot with the following command:
+
+```sh
+node index.js
+
+
+The bot will prompt you to enter user information (such as email and password) for login or registration. Follow the instructions in the terminal to proceed.
