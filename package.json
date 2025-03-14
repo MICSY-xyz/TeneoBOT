@@ -1,0 +1,25 @@
+{
+  "name": "teneobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MICSY-xyz/TeneoBOT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MICSY-xyz/TeneoBOT/issues"
+  },
+  "homepage": "https://github.com/MICSY-xyz/TeneoBOT#readme",
+  "dependencies": {
+    "axios": "^1.8.3",
+    "https-proxy-agent": "^7.0.6",
+    "ws": "^8.18.1"
+  }
+}
