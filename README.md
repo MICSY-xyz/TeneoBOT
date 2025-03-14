@@ -20,7 +20,7 @@ Follow these steps to install and run TeneoBOT on **Termux**:
 ### 1. Install **Node.js** and **npm**
 First, you need to install **Node.js** (which includes **npm**) on Termux:
 
-```sh
+```
 pkg update
 pkg upgrade
 pkg install nodejs
@@ -28,7 +28,7 @@ pkg install nodejs
 ### 2. Clone the Repository
 Clone this repository from **GitHub** to your device:
 
-```sh
+```
 git clone https://github.com/MICSY-xyz/TeneoBOT.git
 cd TeneoBOT
 
@@ -37,14 +37,14 @@ cd TeneoBOT
 
 Install the required dependencies using npm
 
-```sh
+```
 npm install
 
 #### 4. Run the Bot
 
 After the dependencies are installed, you can run the bot with the following command:
 
-```sh
+```
 node index.js
 
 
